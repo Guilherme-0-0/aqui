@@ -1,0 +1,145 @@
+body {
+    background: #888;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #888;
+}
+
+.voltar {
+    background: #bbb;
+    color: #222;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.painel {
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    background: #888;
+    padding: 20px;
+}
+
+.coluna {
+    flex: 1;
+    background: #666;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.coluna h2 {
+    background: #aaa;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-produto {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #888;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    background: #ccc;
+}
+
+.switch {
+    width: 40px;
+    height: 20px;
+    background: #222;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.switch-on {
+    width: 20px;
+    height: 20px;
+    background: #0a0;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.botoes button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apagar {
+    background: #d00;
+    color: #fff;
+}
+
+.ultimos {
+    margin-top: 20px;
+}
+
+.ultimos .form-group {
+    background: #aaa;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.indicador-valido {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    background: #0a0; 
+    margin-left: 10px;
+    vertical-align: middle;
+    border: 2px solid #222;
+}
+
+.indicador-vencido {
+    background: #d00 !important; 
+}
+
+.indicador-mini {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    border-radius: 8px;
+    background: #0a0; 
+    margin-left: 5px;
+    vertical-align: middle;
+    border: 2px solid #222;
+}
